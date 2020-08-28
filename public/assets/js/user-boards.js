@@ -28,7 +28,7 @@ function getUserBoards() {
         method: 'GET'
     }).then(function(data) {
         renderBoards(data.boards);
-    })
+    });
 }
 
 function renderBoards(boards) {
